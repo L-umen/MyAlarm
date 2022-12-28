@@ -1,0 +1,80 @@
+html,body{
+    margin: 0;
+    padding:0;
+    background-color: teal;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+
+.alarm{
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    text-align: center;
+    margin: auto;     
+    }
+    
+@media screen and (max-width:885px) {
+   .alarm{
+        width: 80%;
+        }
+       }
+
+@media screen and (max-width:895px) {
+    .alarm{
+        height: fit-content;
+        }
+       }
+
+@media screen and (max-width:320px) {
+    #remind{
+        width: min-content;
+        }
+       }
+
+img{
+    height: 110px;
+    border-radius: 100%;
+       }
+       
+@keyframes move {
+    40%{
+        transform: rotate(360deg);
+        display: block;
+        }
+       }
+
+input{
+    width: 100px;
+    margin-top: 10px;
+       }
+
+button{
+    margin-top: 10px;
+      }
+ 
+input::placeholder{
+    font-size: 12px;
+       }
+
+#remind{
+    width: 250px;
+       }
+
+.btnn{
+    margin-top: 15px;
+       }
+
+#reminder{
+    margin-top: 3px;
+       }
+
+.image2{
+    height: 120px;
+    animation-name: move;
+    transition: 0.1s all;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    border-radius: 100%;        
+    }
+    

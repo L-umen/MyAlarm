@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+   ">
+   <link rel="stylesheet" href="../alarm/alarm.css">
+</head>
+<body>
+
+    <div class="alarm mt-5">
+        <img src="alarmoriginal.jpeg"  id="image" alt="">
+        <!-- time display -->
+        <h1 id="h1"></h1>
+
+       <span>
+          <input name="" id="hour" placeholder="Hour" value="">
+          <input name="" id="min" placeholder="Min" value="">
+          <input type="text" placeholder="Sec" id="sec" value="">
+        </span>
+
+            <!--reminder -->
+          <input id="remind" type="text" placeholder="Reminder">
+          <h4 id="reminder"></h4>
+
+                <!-- set alarm -->
+       <div class="btnn">
+          <button onclick="setA()" id="press" class="btn btn-success w-75">Set Alarm</button>
+          <button onclick="stopAlarm()" id="pres" class="btn btn-danger w-75">Stop Alarm</button>
+       </div>
+
+    </div>
+        
+
+</body>
+<script src="../alarm/alarm.js"></script>
+</html>
+
